@@ -1,0 +1,16 @@
+* {
+  background-color: black;
+}
+.grid-container {
+  display: grid;
+  background-color: aliceblue;
+  padding: 10px;
+  grid-template-columns: 3fr 2fr;
+  grid-template-rows: 5fr 2fr;
+}
+.box {
+  /* width: 400px; */
+  border: 5px solid darkslateblue;
+  height: 150px;
+  background-color: lightsteelblue;
+}
